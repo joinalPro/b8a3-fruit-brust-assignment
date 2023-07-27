@@ -164,7 +164,7 @@
             </div>
           </div> 
           <!-- five fruits list -->
-         <div class="flex justify-center gap-10  relative  w-8/12 mb-16 rounded-lg bg-white shadow-lg mx-auto -top-10 pb-5 ">
+         <div class="lg:flex justify-center gap-10  relative  w-8/12 mb-16 rounded-lg bg-white shadow-lg mx-auto -top-10 pb-5 hidden ">
           <div class="text-center">
             <img src="./images/fruit1.png" alt="">
             <p>Grapes</p>
@@ -190,9 +190,9 @@
          
         <!-- deal of the day section  clock part started here-->
       <section class="container mx-auto my-15">
-        <div class="flex justify-between">
+        <div class="grid grid-cols-1 md:grid-cold-1 lg:grid-cols-2 justify-between">
           <div class=" ">
-            <h1 class="text-5xl font-bold mb-5">Deal of the day</h1>
+            <h1 class="text-2xl lg:text-5xl font-bold mb-5">Deal of the day</h1>
             <p class="">Contrary to popular belief, is not simply random text. It has roots in a piece of<br>classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div class="">
@@ -223,7 +223,7 @@
             </div> 
             <div class="flex flex-col p-2 rounded-box text-neutral-content">
               <span class="countdown text-[#121212] font-bold text-3xl">
-                <span style="--value:08"></span>:
+                <span style="--value:08"></span>
               </span>
               <div class="font-xl text-[black]">
               Seconds
@@ -235,7 +235,7 @@
       </section>
        <!-- deal section card started here -->
        
-       <section class="my-5 flex gap-5 justify-center">
+       <section class=" container mx-auto my-20  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-5 justify-center">
         <div class=" text-center p-5 card w-96 bg-[#FFF] shadow-xl">
           <figure><img src="./images//fruit6.png" alt="Shoes" /></figure>
           <div class="card-body">
@@ -337,7 +337,7 @@
     </section>
     <!-- Meet the team section start here -->
     <section class="container mx-auto my-20">
-      <div class=" b">
+      <div class=" ">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="./images//banner1.png" class="w-full" />
           <div class="absolute   transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -347,7 +347,7 @@
               <p class="text-[16px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
            <!-- images member -->
-            <div class="flex justify-center gap-20">
+            <div class="flex  justify-center gap-20">
                 <div class="text-[#FFF] text-center mt-7 mb-10"><img src="./images/member1.png" alt="">
                 <h2>Awlad Hossain</h2>
                 <p>Fruits Expert</p>
@@ -391,11 +391,11 @@
      <!-- Why Choose Us section -->
      <section class="container mx-auto my-25 m">
       <div class="text-center mt-10">
-        <h2 class="text-5xl font-bold mb-5">Why Choose Us</h2>
+        <h2 class=" text-2xl lg:text-5xl font-bold mb-5">Why Choose Us</h2>
         <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
     
-        <div class="flex gap-8">
+        <div class="flex flex-col md:flex-row lg:flex-row gap-8">
         <div>
           <div class="flex gap-8 items-center">
             <i class="fa-solid fa-people-group"></i>
@@ -451,7 +451,6 @@
 
     </main>
     <!-- footer section started here -->
-    <!-- footer section -->
     <footer class="bg-[#121212;] mt-20 p-16">
       <div class="text-[#FFF] flex justify-center items-center gap-5 mb-10">
         <img src="./images/logo.png" alt="">
